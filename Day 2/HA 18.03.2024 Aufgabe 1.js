@@ -12,4 +12,9 @@ function bewertePunktzahl(punktzahl) {
     }
 }
 
+bewertePunktzahl(95); // sollte "sehr gut" ausgeben
+bewertePunktzahl(85); // sollte "gut" ausgeben
+bewertePunktzahl(75); // sollte "befriedigend" ausgeben
+bewertePunktzahl(65); // sollte "ausreichend" ausgeben
+bewertePunktzahl(55); // sollte "nicht bestanden" ausgeben
 

@@ -11,3 +11,7 @@ function bewerteAlter(alter) {
 }
 
 
+bewerteAlter(5);  // Sollte "Die Fahrt ist kostenlos." ausgeben
+bewerteAlter(16); // Sollte "Man fährt zum Kinderpreis." ausgeben
+bewerteAlter(45); // Sollte "Man fährt zum Vollpreis." ausgeben
+bewerteAlter(70); // Sollte "Man fährt zum Seniorenpreis." ausgeben
